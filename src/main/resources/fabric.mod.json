@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "instantkill",
+  "version": "1.0.0",
+
+  "name": "InstantKill",
+  "description": "Make bows deal extrordinary amounts of damage",
+  "authors": [
+    "Saturn5Vfive"
+  ],
+  "contact": {
+    "homepage": "https://discord.gg/moles",
+    "sources": "https://github.com/saturn5Vfive/instantkillbow"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.saturn.instantkill.InstantKill"
+    ]
+  },
+  "mixins": [
+    "instantkill.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
